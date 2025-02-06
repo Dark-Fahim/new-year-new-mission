@@ -124,7 +124,7 @@ header{
     width: 320px;
 }
 
-.info, .subscribe{
+.info{
     height: 480px;
     
 }
@@ -229,9 +229,13 @@ header{
     transform: scale(1.2)
 }
 
+.subscribe{
+    height: 620px;
+}
 .subscribe-container{
     margin: 50px auto;
     padding: 100px;
+    height:100%;
     border-radius: 20px;
     background: #FF00001A;
     display: flex;
@@ -263,3 +267,41 @@ header{
     cursor: pointer;
 }
 
+.footer{
+    background-color: #070211;
+    margin-top: 100px;
+    padding: 100px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+}
+.footer-content div> div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 30px;
+    border-bottom: 1px solid;
+}
+
+.footer-social img{
+    cursor: pointer;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
