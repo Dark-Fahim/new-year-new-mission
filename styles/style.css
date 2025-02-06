@@ -154,3 +154,39 @@ header{
     color: #fff;
     border-radius: 15px;
 }
+
+.offer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.offer-details h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-details h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 50px 0;
+}
+.offer-details p, .offer-more-details p{
+    font-size: 20px;
+    color: #07021199;
+    line-height: 32px;
+}
+.offer-more-details p{
+    margin: 50px auto;
+}
+
+.offer-more-details h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.offer-img {
+    border: 10px solid #FF0000;
+    padding: 30px;
+    border-radius: 50%;
+}
