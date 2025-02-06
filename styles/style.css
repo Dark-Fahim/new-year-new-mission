@@ -124,12 +124,14 @@ header{
     width: 320px;
 }
 
-.info{
-    background: #FF00001A;
+.info, .subscribe{
     height: 480px;
+    
 }
 
 .info-container{
+    border-radius: 20px;
+    background: #FF00001A;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -172,12 +174,12 @@ header{
     font-weight: 900;
     margin: 50px 0;
 }
-.offer-details p, .offer-more-details p{
+.offer-details p, .offer-more-details p, .portfolio-container p, .subscribe-container p{
     font-size: 20px;
     color: #07021199;
     line-height: 32px;
 }
-.offer-more-details p{
+.offer-more-details p, .portfolio-container p{
     margin: 50px auto;
 }
 
@@ -190,3 +192,74 @@ header{
     padding: 30px;
     border-radius: 50%;
 }
+
+
+.portfolio-container h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.portfolio-container h2{
+    font-size: 24px;
+}
+
+.portfolio-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.portfolio-images div{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.portfolio-images div:hover{
+    box-shadow: 10px 10px 10px #e89a9a;
+    transition: .7s;
+}
+
+.portfolio-images div img{
+    width: 100%;
+    transition: .7s;
+}
+.portfolio-images div img:hover{
+    transform: scale(1.2)
+}
+
+.subscribe-container{
+    margin: 50px auto;
+    padding: 100px;
+    border-radius: 20px;
+    background: #FF00001A;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.subscribe-container h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-container input{
+    padding: 15px 30px;
+    width: 500px;
+    border-radius: 20px 0 0 20px;
+    font-size: 20px;
+    color: #07021199;
+}
+
+.subscribe-container button{
+    padding: 15px 25px;
+    background-color: #FF0000;
+    border-radius: 0 20px 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
