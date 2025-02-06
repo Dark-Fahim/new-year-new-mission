@@ -25,6 +25,8 @@ header{
 .container{
     width: 1140px;
     margin: 0 auto;
+    box-sizing: border-box;
+
 }
 
 .banner{
@@ -47,4 +49,43 @@ header{
     line-height: 95px;
 }
 
+.text-align{
+    text-align: center;
+}
+
+.all-categories{
+    margin-top: 100px;
+}
+.off-heading{
+    font-weight: bold;
+    color: #FF0000;
+    font-size: 88px;
+    margin-bottom: 30px;
+}
+.categories-sub-heading{
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+}
+.categories-heading{
+    margin: 20px;
+    font-size: 48px;
+}
+
+.categories-img img{
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.party-section{
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Vectorrr.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
 
